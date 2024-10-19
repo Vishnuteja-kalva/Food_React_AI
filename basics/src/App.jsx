@@ -13,7 +13,7 @@ import { NutritionFetcher } from "./Food nutrition";
 import {GeminiChatbot} from "./food_chatbot";
 import { Interface } from "./Success";
 import { Video } from "./Play Videos";
-function New_react() {
+export function New_react() {
   return (
     <div>
       <Routes>
@@ -34,4 +34,4 @@ function New_react() {
   );
 }
 
-export default New_react;
+
